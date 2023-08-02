@@ -1,0 +1,13 @@
+.contact__list {
+  list-style-type: none;
+  max-width: 500px;
+  margin-top: 20px;
+}
+.contact__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin: 5px 0;
+  font-size: 20px;
+}
