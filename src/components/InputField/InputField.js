@@ -25,9 +25,9 @@ export function InputField(props) {
             : null;
         const onChange = e => {
           const {
-            target: { value, name },
+            target: { value },
           } = e;
-          changeState(value, name);
+          changeState(value);
           validateField(field.name);
           return field.onChange(e);
         };
